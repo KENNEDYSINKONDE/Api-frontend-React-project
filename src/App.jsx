@@ -6,6 +6,7 @@ import ProductList from './components/products/ProductList'
 import ProjectList from "./components/projects/ProjectList";
 import Showstatuses from './components/Showstatuses'
 import DefaultLayout from "./layouts/DefaultLayout";
+import Login from "./components/Login";
 function App() {
 
   return (
@@ -35,6 +36,15 @@ function App() {
 
             <DefaultLayout>
               <Showstatuses />
+            </DefaultLayout>
+
+
+
+          } />
+          <Route path="/login" element={
+
+            <DefaultLayout>
+              <Login />
             </DefaultLayout>
 
 

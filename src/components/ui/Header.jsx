@@ -13,6 +13,7 @@ function Header() {
           <Link to="/" className="hover:underline">Products</Link>
           <Link to="/projects" className="hover:underline">Projects</Link>
           <Link to="/statuses" className="hover:underline">Statuses</Link>
+           <Link to="/login" className="hover:underline">login</Link>
         </nav>
       </div>
     </header>
